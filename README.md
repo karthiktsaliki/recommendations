@@ -1,2 +1,3 @@
 # recommendations
-similarity calculation using svd
+
+TODO Readme

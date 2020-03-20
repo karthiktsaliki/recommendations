@@ -44,9 +44,9 @@ https://github.com/karthiktsaliki/recommendations/blob/master/usage_guide.md
 
 1. Cosine similarity looks at the angle between two vectors. Let's say you have users who have scored photoshop, angular, javascript, react, tensorflow 
 
-User 1  10 photoshop, 30 angular, 50 react
-User 2  10 photoshop,  10 tensorflow, 10 pytorch 
-User 3  30 photoshop, 50 angular, 70 react
+ * User 1  10 photoshop, 30 angular, 50 react
+ * User 2  10 photoshop,  10 tensorflow, 10 pytorch 
+ * User 3  30 photoshop, 50 angular, 70 react
 
 By cosine similarity, user 1 and user 3 are more similar. By euclidean similarity, user 2 is more similar to user 1.
 
@@ -57,11 +57,11 @@ By cosine similarity, user 1 and user 3 are more similar. By euclidean similarit
 
 ### Future enhancements
 
-We can do some time based feature engineering, add extra course tags into account.
+* We can do some time based feature engineering, add extra course tags into account.
 
-Do featue transformation on authors. I neglected this but this might add relevance few users might be biased to authors.
+* Do featue transformation on authors. I neglected this but this might add relevance few users might be biased to authors.
 
-Provide recommendations of courses to users
+* Provide recommendations of courses to users
 
 ### My similar work in recommendations
 

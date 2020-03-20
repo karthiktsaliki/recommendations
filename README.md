@@ -36,6 +36,11 @@ I exposed an API for getting similar users for given users
 Developed a web application which takes the user_id and num_similar_users as the parameters and returns the similar
 users as response
 
+### Usage
+
+https://github.com/karthiktsaliki/recommendations/blob/master/usage_guide.md
+
+
 ### My similar work in recommendations
 
 https://github.com/karthiktsaliki/Hikeathon_Analytics_Vidhya (Secured 17th rank world wide)

@@ -52,7 +52,7 @@ By cosine similarity, user 1 and user 3 are more similar. By euclidean similarit
 
 2. Actually I am not getting that high magnitude in similarity it will be really accurate if we have more data and we should be even consider some map reduce techniques in transforming data.
 
-3. We can give recommendations of courses to users. In what ways they are similar. If a new user comes in what courses should I recommend this can all taken into future enhancements. I would like to collect demographics of users to provide some insights ,   some more information(content) on courses and more information on authors.
+3. We can give recommendations of courses to users. In what ways they are similar. If a new user comes in what courses should I recommend this can all be taken into future enhancements. I would like to collect demographics of users to provide some insights ,   some more information(content) on courses and more information on authors.
 
 
 ### Future enhancements
@@ -62,6 +62,24 @@ By cosine similarity, user 1 and user 3 are more similar. By euclidean similarit
 * Do featue transformation on authors. I neglected this but this might add relevance few users might be biased to authors.
 
 * Provide recommendations of courses to users
+
+### Files
+
+* app.py the flask application runs on 5000 port
+
+* driver.py which runs all the steps and saves the similarity data in postgres
+
+* data_ingestion.py for creating and storing data in postgres
+
+* data_transformation.py for transforming the give data to apply cf
+
+* user_similarity.py which does the similarity between users and saves it in the csv
+
+* model.py apply svd on the given data
+ 
+* database.ini database config information
+
+* config.py which parses the config of database.ini and return the params of postgres
 
 ### My similar work in recommendations
 

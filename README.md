@@ -73,13 +73,15 @@ By cosine similarity, user 1 and user 3 are more similar. By euclidean similarit
 
 * data_transformation.py for transforming the give data to apply cf
 
-* user_similarity.py which does the similarity between users and saves it in the csv
+* similarity_calculation.py which does the similarity between users and saves it in the csv
 
 * model.py apply svd on the given data
  
 * database.ini database config information
 
 * config.py which parses the config of database.ini and return the params of postgres
+
+* constants.py file for storing the common constants for the app
 
 ### My similar work in recommendations
 

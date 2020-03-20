@@ -40,6 +40,28 @@ users as response
 
 https://github.com/karthiktsaliki/recommendations/blob/master/usage_guide.md
 
+### Answers
+
+1. Cosine similarity looks at the angle between two vectors. Let's say you have users who have scored photoshop, angular, javascript, react, tensorflow 
+
+User 1  10 photoshop, 30 angular, 50 react
+User 2  10 photoshop,  10 tensorflow, 10 pytorch 
+User 3  30 photoshop, 50 angular, 70 react
+
+By cosine similarity, user 1 and user 3 are more similar. By euclidean similarity, user 2 is more similar to user 1.
+
+2. Actually I am not getting that high magnitude in similarity it will be really accurate if we have more data and we should be even consider some map reduce techniques in transforming data.
+
+3. We can give recommendations of courses to users. In what ways they are similar. If a new user comes in what courses should I recommend this can all taken into future enhancements. I would like to collect demographics of users to provide some insights ,   some more information(content) on courses and more information on authors.
+
+
+### Future enhancements
+
+We can do some time based feature engineering, add extra course tags into account.
+
+Do featue transformation on authors. I neglected this but this might add relevance few users might be biased to authors.
+
+Provide recommendations of courses to users
 
 ### My similar work in recommendations
 

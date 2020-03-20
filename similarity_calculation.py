@@ -40,8 +40,8 @@ class Similarity:
 
             user_based_top_similarity = []
 
-            for val in tqdm(list(cols_to_sort)):
-                user_based_top_similarity.append(user_sim_matrix[str(val)].
+            for val in tqdm(cols_to_sort):
+                user_based_top_similarity.append(user_sim_matrix[val].
                                                  sort_values(ascending=False).index.tolist()[1:constants.top_k + 1])
 
             top_columns = ['top_' + str(ind) for ind in range(1, constants.top_k + 1)]
